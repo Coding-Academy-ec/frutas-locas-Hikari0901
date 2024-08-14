@@ -8,12 +8,12 @@
 # Imprime el valor asociado a la clave "uva" en la consola.
 
 frutas = {
-    "manzana": "roja",
-    "banana": , # banana lleva el valor "amarilla"
-    "pera": "verde",
-    "naranja": # naranja lleva el valor "naranja"
+    "manzana":"roja",
+    "banana":"amarilla",
+    "pera":"verde",
+    "naranja":"naranja"
 }
 
 print(frutas)
-print() # banana lleva el valor "amarilla"
+print(frutas.get("banana"))
 print(frutas.get("uva"))
